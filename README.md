@@ -25,7 +25,7 @@ use SandroAmancio\Search\Coordinates;
 
 $busca = new Coordinates();
 
-$resultado = $busca->getCoordinatesFromAddress('Address', 'mytokenMapBox');
+$resultado = $busca->getCoordinatesFromAddress('Address', 'myTokenMapBox');
 
 print_r($resultado);
 
