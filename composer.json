@@ -1,0 +1,21 @@
+{
+    "name": "sandro/php-search-coordinates",
+    "description": "Busca de coordenadas com api mapbox",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Sandro Amancio",
+            "email": "sandro.sa@0315gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "SandroAmancio\\Search\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    }
+    
+}
