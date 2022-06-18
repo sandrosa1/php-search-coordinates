@@ -23,7 +23,7 @@ require __DIR__. '/vendor/autoload.php';
 
 use SandroAmancio\Search\Coordinates;
 
-$busca = new Address;
+$busca = new Coordinates();
 
 $resultado = $busca->getCoordinatesFromAddress('Address', 'mytokenMapBox');
 
